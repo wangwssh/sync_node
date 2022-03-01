@@ -1,0 +1,9 @@
+<launch>
+
+    <rosparam command="load" file="$(find sync_node)/config/param.yaml" />
+
+	  <!--node name="spinLiDAR_Node" pkg="spinning_lidar_slam" type="spinLiDAR_Node" output="screen"/-->
+
+    <node name="sync_node" pkg="sync_node" type="sync_node" output="screen"/> 
+
+</launch>

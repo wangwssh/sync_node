@@ -1,0 +1,6 @@
+single_odometry_file_name: "/home/pc/timesync/experiment_data/pre-calib/big/spin.txt"
+multi_odometry_file_name_1: "/home/pc/timesync/experiment_data/pre-calib/small/vision.txt"
+multi_odometry_file_name_2: "/home/pc/timesync/experiment_data/pre-calib/small/spin.txt"
+single_odometry_topic: "/lidar_Odometry"
+multi_odometry_topic_1: "/mavros/vision_pose/pose"
+multi_odometry_topic_2: "/lidar_Odometry"
